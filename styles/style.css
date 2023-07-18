@@ -1,0 +1,70 @@
+/* work sans font form google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;0,800;1,400;1,600;1,700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+/* shared styles */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav styles */
+header {
+    height: 100vh;
+    width: auto;
+    padding: 2.3rem 13rem;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-img {
+    width: 66px;
+    height: 30px;
+}
+
+.nav-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.nav-link ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.2rem;
+    font-weight: 500px;
+
+}
+
+.font-awesome {
+    border-radius: 5px;
+    background: rgba(11, 2, 35, 0.10);
+    color: #3C354F;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
