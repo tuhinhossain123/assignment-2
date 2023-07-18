@@ -89,7 +89,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 20px;
 
 }
 
@@ -225,5 +225,97 @@ header {
     width: 180px;
     height: 200px;
 
+
+}
+
+/* games name section */
+.games-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.games {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.games img {
+    width: 40px;
+    height: 40px;
+}
+
+.games-name {
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* footer section */
+.footer-container {
+    background: #0B0223;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.footer-img {
+    width: 66px;
+    height: 30px;
+}
+
+.footer-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.our-story ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 20px;
+
+
+}
+
+.btn-img {
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 100px;
 
 }
