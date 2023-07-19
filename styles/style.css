@@ -175,14 +175,19 @@ header {
 .card-img {
     width: 182px;
     height: 240px;
+   
 }
 
 .card-description {
     color: #534C64;
     font-size: 14px;
     font-weight: 500;
+    margin-top: 18px;
 
 }
+
+
+
 
 /*    <!-- Play Instantly section --> */
 .play-container {
@@ -227,31 +232,6 @@ header {
 
 
 }
-
-/* games name section */
-.games-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.games {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
-.games img {
-    width: 40px;
-    height: 40px;
-}
-
-.games-name {
-    color: #0B0223;
-    font-size: 16px;
-    font-weight: 400;
-}
-
 
 
 /* footer section */
