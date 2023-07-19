@@ -3,6 +3,9 @@
 
 
 /* shared styles */
+body{
+    padding: 50px auto;
+}
 
 * {
     font-family: 'Open Sans', sans-serif;
@@ -22,7 +25,6 @@
 header {
     height: 100vh;
     width: auto;
-
 
 }
 
@@ -88,19 +90,15 @@ header {
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
 
-}
 
-.banner-content {
-    padding-left: 150px;
 }
 
 .banner-img {
     width: 511px;
     height: 550px;
-    padding-right: 150px;
 
 }
 
@@ -175,7 +173,7 @@ header {
 .card-img {
     width: 182px;
     height: 240px;
-   
+
 }
 
 .card-description {
@@ -298,4 +296,13 @@ header {
     padding-top: 30px;
     padding-bottom: 100px;
 
+}
+
+/* responsive media query  */
+@media screen and (max-width:425px) {
+
+    .nav,
+    .nav ul {
+        flex-direction: column;
+    }
 }
