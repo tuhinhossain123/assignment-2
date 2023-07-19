@@ -343,11 +343,77 @@ header {
 
 }
 
-/* responsive media query  */
-@media screen and (max-width: 425px) {
-
-    .nav,
-    .nav ul {
+/* Apply responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .nav {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .nav-div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-content,
+    .banner-img {
+        padding: 0;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .play-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .play-img,
+    .small-img img {
+        margin: 0 auto;
+    }
+
+    /* footer section */
+    .footer-logo {
+        padding-top: 50px;
+    }
+
+    .our-story ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 10px;
+    }
+
+    .btn-img {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    .terms {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    .copy-right {
+        padding-bottom: 50px;
+    }
+
+    .online-card {
+        flex-direction: column;
+        gap: 25px;
     }
 }
