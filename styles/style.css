@@ -201,7 +201,7 @@ header {
     width: 100%;
     border: 2px solid #FF42A5;
     border-radius: 8px;
-  
+
 }
 
 .hover-div:hover .hover {
@@ -209,9 +209,10 @@ header {
     align-items: center;
     display: flex;
     justify-content: center;
-   
+
 }
-.hover-text{
+
+.hover-text {
     color: #FF42A5;
 }
 
@@ -275,10 +276,11 @@ header {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 80px 0;
     margin-top: -100px;
-   
+
 
 }
-.games-parants{
+
+.games-parants {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -300,7 +302,8 @@ header {
     margin-top: 10px;
 
 }
-.games img{
+
+.games img {
     width: 25px;
 
 }
@@ -377,6 +380,8 @@ header {
 
 }
 
+/* media query */
+
 /* Apply responsive styles for mobile devices */
 @media (max-width: 768px) {
 
@@ -387,6 +392,7 @@ header {
         gap: 10px;
         padding-top: 10px;
         align-items: center;
+       
     }
 
     .nav-link li {
@@ -435,17 +441,20 @@ header {
     }
 
     .games-section {
-      padding: 50px 0;
+        padding: 50px 0;
     }
-    .games{
+
+    .games {
         padding: 0 0;
         width: 130px;
         height: 40px;
     }
-    .games p{
+
+    .games p {
         font-size: 13px;
     }
-    .games-parants{
+
+    .games-parants {
         width: 100%;
         padding: 0 0;
     }
@@ -481,17 +490,38 @@ header {
 }
 
 /* Apply responsive styles for tablet devices */
-/* @media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
     .nav,
-    .banner-container
-    {
+    .banner-container {
         flex-direction: column;
-        margin: auto;
-        width: auto;
+        justify-content: center;
     }
-    .nav-link{
-       align-items: center;
-       margin: 0 auto;
+
+    .banner-content,
+    .banner-img {
+        padding: 0;
+        text-align: center;
+        margin: 20px 0;
+
     }
-} */
+
+    .online-container {
+        margin-top: 600px;
+    }
+
+    .online-card {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .play-container {
+        flex-direction: column;
+    }
+
+    .games-parants,
+    .our-story ul {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+}
