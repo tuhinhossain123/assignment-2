@@ -144,9 +144,10 @@ header {
 }
 
 /* online games */
-.online-container{
-    margin-top: 0px;
+.online-container {
+    margin-top: 100px;
 }
+
 .online-card {
     display: flex;
     justify-content: center;
@@ -237,7 +238,13 @@ header {
 }
 
 /* games section */
-.games-section {
+
+.games-info-one {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+/* .games-section {
     width: 1500px;
     margin-left: 130px;
     margin-top: -100px;
@@ -274,7 +281,7 @@ header {
 .games:hover {
     outline: 2px solid #F948B2;
     color: #F948B2;
-}
+}  */
 
 /* footer section */
 .footer-container {
@@ -346,29 +353,17 @@ header {
 @media (max-width: 768px) {
 
     .nav,
-    .nav-link ul {
+    .nav-link ul,
+    .banner-container {
         flex-direction: column;
         gap: 10px;
         padding-top: 10px;
-        /* flex-direction: column; */
         align-items: center;
     }
 
     .nav-link li {
         margin-right: 0;
         margin-bottom: 10px;
-
-    }
-
-
-    .nav-div {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .banner-container {
-        flex-direction: column;
 
     }
 
@@ -382,7 +377,7 @@ header {
 
     .online-container {
         flex-direction: column;
-        margin-top: 850px;
+        margin-top: 750px;
         text-align: center;
     }
 
@@ -397,6 +392,7 @@ header {
     .card-description {
         margin: 0 auto;
         padding: 0 10px;
+
     }
 
     .play-container {
@@ -420,26 +416,27 @@ header {
     }
 
     .our-story ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        padding-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        text-align: center;
+        padding: 20px;
     }
 
     .btn-img {
-        flex-direction: column;
-        gap: 20px;
-        padding-top: 20px;
+        gap: 100px;
+        padding-top: 30px;
     }
 
     .terms {
-        flex-direction: column;
+
+        display: grid;
+        grid-template-columns: repeat(2, auto);
         align-items: center;
-        gap: 20px;
-        padding-top: 20px;
+        gap: 30px;
+        padding-top: 50px;
     }
 
     .copy-right {
-        padding-bottom: 50px;
+        padding: 50px;
     }
 }
