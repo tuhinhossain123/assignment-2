@@ -144,10 +144,9 @@ header {
 }
 
 /* online games */
-.online-container {
-    margin-top: 120px;
+.online-container{
+    margin-top: 0px;
 }
-
 .online-card {
     display: flex;
     justify-content: center;
@@ -345,15 +344,22 @@ header {
 
 /* Apply responsive styles for mobile devices */
 @media (max-width: 768px) {
-    .nav {
+
+    .nav,
+    .nav-link ul {
         flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+        /* flex-direction: column; */
         align-items: center;
     }
 
     .nav-link li {
         margin-right: 0;
         margin-bottom: 10px;
+
     }
+
 
     .nav-div {
         flex-direction: column;
@@ -363,6 +369,7 @@ header {
 
     .banner-container {
         flex-direction: column;
+
     }
 
     .banner-content,
@@ -370,6 +377,26 @@ header {
         padding: 0;
         text-align: center;
         margin: 20px 0;
+
+    }
+
+    .online-container {
+        flex-direction: column;
+        margin-top: 850px;
+        text-align: center;
+    }
+
+    .online-card {
+        flex-direction: column;
+        gap: 25px;
+
+
+    }
+
+    .online-description,
+    .card-description {
+        margin: 0 auto;
+        padding: 0 10px;
     }
 
     .play-container {
@@ -383,7 +410,11 @@ header {
         margin: 0 auto;
     }
 
-    /* footer section */
+    .games-section {
+        margin: auto;
+        flex-direction: column;
+    }
+
     .footer-logo {
         padding-top: 50px;
     }
@@ -410,10 +441,5 @@ header {
 
     .copy-right {
         padding-bottom: 50px;
-    }
-
-    .online-card {
-        flex-direction: column;
-        gap: 25px;
     }
 }
